@@ -1,8 +1,8 @@
 CppApplication {
-    name: "tst_foo"
+    name: "tst_dynamiclib"
     type: base.concat("autotest")
     Depends { name: "Qt"; submodules: ["test"] }
-    Depends { name: "foo" }
+    Depends { name: "dynamiclib" }
 
     files: ["main.cpp"]
 }

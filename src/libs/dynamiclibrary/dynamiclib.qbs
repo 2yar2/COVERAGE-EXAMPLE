@@ -1,5 +1,5 @@
 DynamicLibrary {
-    name: "foo"
+    name: "dynamiclib"
     Depends { name: "cpp" }
     Depends { name: "coverage" }
     Depends { name: "Qt"; submodules: "core" }

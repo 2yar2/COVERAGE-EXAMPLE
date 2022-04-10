@@ -1,5 +1,5 @@
 StaticLibrary {
-    name: "foo"
+    name: "staticlib"
     Depends { name: "cpp" }
     Depends { name: "coverage" }
     Depends { name: "Qt"; submodules: "core" }

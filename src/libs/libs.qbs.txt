@@ -1,7 +1,0 @@
-Project {
-    name: "libs"
-    references: [
-        "foo/foo.qbs",
-	"foo/foo2.qbs"
-    ]
-}
