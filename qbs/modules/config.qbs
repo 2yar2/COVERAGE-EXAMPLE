@@ -1,8 +1,7 @@
 Project {
 
     references: [
-	"apps/apps.qbs",        
-	"libs/libs.qbs",
+	"buildconfig/buildconfig.qbs",        
         
     ]
 }

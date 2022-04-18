@@ -1,8 +1,9 @@
-CppApplication {
-    name: "tst_dynamiclib"
-    type: base.concat("autotest")
-    Depends { name: "Qt"; submodules: ["test"] }
-    Depends { name: "dynamiclib" }
+MyAutoTest {
+    name: "test_dynamiclib"
+
+    Depends { name: "MyLib" }
+
+    Depends { name: "Qt.core" }
 
     files: ["main.cpp"]
 }

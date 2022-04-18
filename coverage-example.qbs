@@ -1,13 +1,12 @@
-import "qbs/imports/CoverageRunner.qbs" as CoverageRunner
-
 Project {
-    name: "coverage-example" // Задаем уникальное имя корневого проекта.
+    name: "coverage-example"
+    minimumQbsVersion: "1.16"
+    references: [
+        "qbs/qbs.qbs",
+        "src/src.qbs",
+
+    ]
     qbsSearchPaths: "qbs"
 
-    CoverageRunner { }
-
-    references: [
-        "src/src.qbs", // Подключаем директорию с исходниками в проект.
-	"tests/tests.qbs"
-    ]
+    AutotestRunner {}
 }
